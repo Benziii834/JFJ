@@ -107,10 +107,10 @@ function Register() {
         <label>Email</label>
         <input type="text" name="email" value={form.email} onChange={handleChange} />
 
-        <label>Phone(8+ characters, a letter and a number)</label>
+        <label>Phone</label>
         <input type="text" name="phone" value={form.phone} onChange={handleChange} />
 
-        <label>Password (min 6 characters)</label>
+        <label>Password (8+ characters, a letter and a number)</label>
         <input type="password" name="password" value={form.password} onChange={handleChange} />
 
         <label>Date of birth</label>
