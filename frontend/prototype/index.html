@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JFJ - Job For Jobless</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="topbar">
+    <div>
+      <p class="small">Your area</p>
+      <h1 class="area">📍 Beltola, Guwahati ▾</h1>
+    </div>
+    <button class="bell">🔔</button>
+  </div>
+
+  <div class="searchrow">
+    <input type="text" id="search" placeholder="Search gigs, skills or area" />
+    <button class="filter-btn">⚙️</button>
+  </div>
+
+  <div class="chips" id="chips"></div>
+
+  <div class="countrow">
+    <h2 id="count"></h2>
+    <span>Nearest first</span>
+  </div>
+
+  <main></main>
+
+  <nav class="bottomnav">
+    <a href="index.html" class="active"><span>🧭</span>Explore</a>
+    <a href="#"><span>💼</span>My jobs</a>
+    <a href="#"><span>🔔</span>Alerts</a>
+    <a href="register.html"><span>👤</span>Profile</a>
+  </nav>
+
+  <dialog id="jobDialog">
+    <h2 id="dTitle"></h2>
+    <p id="dInfo"></p>
+    <p id="dDesc"></p>
+    <button id="applyBtn">Apply</button>
+    <button id="closeBtn" class="secondary">Close</button>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>

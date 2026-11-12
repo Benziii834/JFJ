@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Register - JFJ</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>JFJ</h1>
+    <p>Create your account</p>
+  </header>
+
+  <form id="registerForm">
+    <label for="name">Name</label>
+    <input type="text" id="name" />
+
+    <label for="email">Email</label>
+    <input type="text" id="email" />
+
+    <label for="phone">Phone (10 digits)</label>
+    <input type="text" id="phone" />
+
+    <label for="password">Password (min 6 characters)</label>
+    <input type="password" id="password" />
+
+    <label for="dob">Date of birth</label>
+    <input type="date" id="dob" />
+
+    <p id="error"></p>
+    <button type="submit">Register</button>
+  </form>
+
+    <p class="link">Already have an account? <a href="login.html">Login</a></p>
+
+  <p class="link"><a href="index.html">← Back to jobs</a></p>
+
+  <script src="register.js"></script>
+</body>
+</html>
