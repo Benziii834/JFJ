@@ -14,7 +14,6 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import ProfileLayout from "./components/ProfileLayout";
 
-
 function Soon({ title }) {
   return (
     <ProfileLayout title={title}>
@@ -24,9 +23,7 @@ function Soon({ title }) {
 }
 
 function App() {
-    return (
-    <>
-    <WakeBanner />
+  return (
     <Routes>
       <Route path="/" element={<Explore />} />
       <Route path="/gigs/:id" element={<GigDetail />} />
@@ -44,7 +41,6 @@ function App() {
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
     </Routes>
-    </>
   );
 }
 
